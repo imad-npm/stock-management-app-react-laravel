@@ -4,7 +4,7 @@ This is a full-stack stock management application built with a React frontend an
 
 ## About the Project
 
-The Stock Management System is designed to help businesses of all sizes effectively manage their inventory. It provides a user-friendly interface for tracking products, categories, and transactions. The system also includes a dashboard for visualizing key stock metrics.
+The Stock Management System is a multi-user application designed to help businesses of all sizes effectively manage their inventory. It provides a user-friendly interface for tracking products, categories, and transactions,also includes a dashboard for visualizing key stock metrics.
 
 ## Use Cases
 
@@ -17,15 +17,14 @@ This application can be used for a variety of purposes, including:
 
 ## User Roles
 
-The application has two main user roles:
+The application is designed for multiple users, with each user's data being completely isolated. There are two main user roles:
 
-*   **Admin:** The admin user has full access to the system. They can perform any action on any resource, including:
+*   **Admin:** The admin user has full access to the system and can manage all data, including:
     *   Managing users (creating, updating, deleting)
-    *   Managing all products, categories, and transactions.
+    *   Viewing and managing all products, categories, and transactions across all users.
 
-*   **User:** The user role has limited access to the system. They can:
-    *   Create new products, categories, and transactions.
-    *   Only view, update, and delete their own products, categories, and transactions.
+*   **User:** The user role has limited access to the system and can only interact with their own data. Each user's data is private and not visible to other users. They can:
+    *   Create, view, update, and delete their own products, categories, and transactions.
 
 ## Technologies Used
 
@@ -96,3 +95,15 @@ To get the project up and running, follow these steps:
     ```
 
 The frontend will be available at `http://localhost:3000` and the backend at `http://localhost:8000`.
+
+## Test Accounts
+
+You can use the following test accounts to log in and test the application:
+
+*   **Admin:**
+    *   **Email:** admin@example.com
+    *   **Password:** password1
+
+*   **User:**
+    *   **Email:** user@example.com
+    *   **Password:** password1
