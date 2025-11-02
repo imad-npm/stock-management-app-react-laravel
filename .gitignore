@@ -1,0 +1,18 @@
+# Ignore nested Git repositories
+/backend/.git
+/frontend/.git
+
+# Laravel
+/backend/vendor
+/backend/storage
+/backend/.env
+
+# Frontend
+/frontend/node_modules
+/frontend/dist
+/frontend/.env
+
+# Common
+.DS_Store
+*.log
+prompt.txt
