@@ -1,6 +1,6 @@
 # Ignore nested Git repositories
-/backend/.git
-/frontend/.git
+/backend/.giit
+/frontend/.giit
 
 # Laravel
 /backend/vendor
