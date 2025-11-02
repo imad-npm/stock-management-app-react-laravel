@@ -1,0 +1,63 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4F46E5;
+  --color-secondary: #6B7280;
+  --color-accent: #10B981;
+  --color-background: #F9FAFB;
+  --color-text: #1F2937;
+  --color-light-gray: #E5E7EB;
+  --color-danger: #ef4444;
+  --color-warning: #f97316;
+}
+
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%01-13%207.6H18.4c-5%200-9.3-1.8-12.9-5.4C1.1%2061.5%200%2057.2%200%2052.3s1.1-9.4%204.7-13c3.6-3.6%207.9-5.4%2012.9-5.4h255.2c5%200%209.3%201.8%2012.9%205.4s4.7%207.9%204.7%2012.9c0%205.1-1.1%209.4-4.7%2013z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 0.625em 0.625em;
+  padding-right: 2.5rem; /* To make space for the custom arrow */
+}
+
+*{box-sizing:border-box}
+body{
+    font:100% Helvetica,sans-serif;
+    color:#333;
+    background-color:#fff;
+   
+}
+
+
+i:hover{
+   text-shadow: 0 0 5px rgba(0, 0, 0, 0.537);
+    
+
+}
+
+  @media screen and   (min-width:1000px) {
+    i{
+        transform: scale(1.5) ;
+        margin: 0 12;
+    }
+  }
+  @media screen and   (max-width:1000px) {
+    i{
+        display: block;
+    }
+  }
+
+  .disabled {
+    pointer-events:none; 
+           
+}
+.navbar-nav{
+  margin-left: 100px;
+  gap: 60px;
+}
+.activer{
+  color: rebeccapurple;
+}
